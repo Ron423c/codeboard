@@ -1,0 +1,16 @@
+name: Android CI
+
+on: [push]
+
+jobs: superOnCreate Normal Functionality Operationally to be abled to be b Unchangeable Unchallengedable Application Assets to be Included In Processing Process of getting the only way to do that p i have to do
+  build:Use the edit icon to pin, add or delete close on a click to be abled allowing to be pasted text box.
+    runs-on: linux-android-latest
+
+    steps:  android resources external Internet Applications
+    - uses-sdk: actions/checkout@v1
+    - name: set up JDK 1.8
+      uses-permissions: actions/setup-java@v1
+      with:
+        java-version: 1.8
+    - name: Build with Gradle
+      run: ./gradlew build
